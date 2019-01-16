@@ -1,6 +1,7 @@
 # PP_STANDARD :: IPN RESPONSE: INVALID (Solution)
 
-From your `paypal.log` file check the parameter **charset** of the **IPN REQUEST**:  
+From your `paypal.log` file check the parameter **charset** of the **IPN REQUEST**:
+
 `PP_STANDARD :: IPN REQUEST: charset=windows-1253`  
 `PP_STANDARD :: IPN RESPONSE: INVALID`
 
@@ -13,6 +14,7 @@ From your `paypal.log` file check the parameter **charset** of the **IPN REQUEST
 6. Change both drop-downs to **UTF-8**. The "_Do you want to use the same encoding for data sent from PayPal to you (e.g., IPN, downloadable logs, emails)?"_ radio button should be **YES**
 7. Save
 
-Now check again your `paypal.log` file 
+Now check again your `paypal.log` file:
+
 `PP_STANDARD :: IPN REQUEST: charset=UTF-8`  
 `PP_STANDARD :: IPN RESPONSE: VERIFIED`
