@@ -1,6 +1,6 @@
 # PP_STANDARD :: IPN RESPONSE: INVALID (Solution)
 
-From your `paypal.log` file check the parameter **charset** of the **IPN REQUEST**:
+From your `paypal.log` file check the parameter **`charset`** of the **`IPN REQUEST`**:
 
 `PP_STANDARD :: IPN REQUEST: charset=windows-1253`  
 `PP_STANDARD :: IPN RESPONSE: INVALID`
