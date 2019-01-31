@@ -1,4 +1,7 @@
-# Alter two columns of a TABLE with one query
+# Alter two columns of a table with one query
+
+### Table:  
+- `prefix_NameOfTheTable`  
 
 ### Columns:  
 - `date_start`  
