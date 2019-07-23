@@ -1,3 +1,5 @@
+# How to fix "you do not have permission to..."
+
 - Edit the file `/system/library/user.php`, add after `public function hasPermission($key, $value) {` the line `return true;` and save it.
 
 - Go to  
