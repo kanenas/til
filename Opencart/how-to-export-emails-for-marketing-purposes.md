@@ -5,3 +5,5 @@
 `SELECT DISTINCT(email) FROM oc_order WHERE order_status_id = 5` *< This is for **COMPLETE** orders*
 
 `SELECT email_id FROM oc_subscribe` *< This TABLE comes with an extension about newsletter*  
+
+**Note:** You may have to change the `DB_PREFIX` `oc_`
