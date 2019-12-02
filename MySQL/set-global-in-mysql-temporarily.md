@@ -13,6 +13,8 @@ Connect with terminal to MySQL `>mysql -uroot`.
 
 `SET GLOBAL innodb_buffer_pool_size = 10737418240;`  
 `SET GLOBAL innodb_buffer_pool_instances = 10;`  
+`-- SET GLOBAL innodb_log_file_size = 536870912;` << **CAUTION**  
+
 
 Read more:  
 - https://www.percona.com/blog/2014/01/28/10-mysql-performance-tuning-settings-after-installation/
