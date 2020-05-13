@@ -11,7 +11,7 @@
 - Clear ALL caches, pub/static included and the Magento cache and compiled files in var/
 - Re-deploy static files
 - Reindex
-- Change admin URL from https://clone.example.com/admin_12345/ > https://clone.watobject.com/clone_admin_12345/
+- Change admin URL from https://clone.example.com/admin_12345/ > https://clone.example.com/clone_admin_12345/
 
 CLI  
 `cd /home/example/public_html/`  
