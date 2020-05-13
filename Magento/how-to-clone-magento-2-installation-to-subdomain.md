@@ -14,7 +14,7 @@
 - Change admin URL from https://clone.example.com/admin_12345/ > https://clone.watobject.com/clone_admin_12345/
 
 CLI  
-`cd /home/example/public_html/`
+`cd /home/example/public_html/`  
 `sudo -u example /usr/local/bin/php -c /home/example/public_html/_clone/php.ini bin/magento cache:clean`  
 `sudo -u example /usr/local/bin/php -c /home/example/public_html/_clone/php.ini bin/magento indexer:reindex`  
 `sudo -u example /usr/local/bin/php -c /home/example/public_html/_clone/php.ini bin/magento indexer:reset`  
