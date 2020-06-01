@@ -55,3 +55,6 @@ TRUNCATE TABLE `prefix_sequence_creditmemo_2`;
 SET FOREIGN_KEY_CHECKS=1;
 
 ```
+
+**Magento 2 Delete Orders (FREE)** >> https://magecomp.com/magento-2-delete-orders.html  
+**Mageplaza Delete orders for Magento 2 (FREE)** >> https://github.com/mageplaza/magento-2-delete-orders  
