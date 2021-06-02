@@ -1,4 +1,4 @@
-# We detected that your site is not verifying reCAPTCHA solutions. (Solution)
+# We detected that your site is not verifying reCAPTCHA solutions (Solution)
 
 **Google reCAPTCHA console**:  
 We detected that your site is not verifying reCAPTCHA solutions. This is required for the proper use of reCAPTCHA on your site. Please see <a target="_blank" href="https://developers.google.com/recaptcha/docs/verify#api-request">our developer site</a> for more information.
