@@ -4,3 +4,6 @@
 
 This cron job runs **every Monday** at **05:00 am**.  
 `0   5   *   *   1   find /path-to-image-folder/image/cache/ -type f -not -name 'index.html' -delete >/dev/null 2>&1`
+
+This cron job runs **every day** at **04:10 am**.  
+`10	04	*	*	*	wget -O /dev/null 'https://www.example.com/admin/model/extension/module/ie_cron_jobs.php?action=cron_start&profile_id=1' >/dev/null 2>&1`
