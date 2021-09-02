@@ -1,2 +1,2 @@
 # How to find files larger than...
-`find . -type f -size +100M`
+`$ find . -type f -size +100M`
