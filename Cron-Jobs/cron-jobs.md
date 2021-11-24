@@ -7,4 +7,4 @@ This cron job runs **every Monday** at **05:00 am**.
 
 # Use `wget` for Opencart's extension 
 This cron job runs **every day** at **04:10 am**.  
-`10	04	*	*	*	wget -O /dev/null 'https://www.example.com/admin/model/extension/module/cron_jobs.php?action=cron_start&profile_id=1' >/dev/null 2>&1`
+`10	04	*	*	*	wget -O /dev/null 'https://www.example.com/admin/model/extension/module/ie_cron_jobs.php?action=cron_start&profile_id=1' >/dev/null 2>&1`
