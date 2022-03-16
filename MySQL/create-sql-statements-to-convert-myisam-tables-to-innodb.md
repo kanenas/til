@@ -1,4 +1,4 @@
-
+# Create SQL statements to convert MyISAM tables to InnoDB
 ```
 SET
   @DATABASE_NAME = 'write-the-correct-db_name-here';
