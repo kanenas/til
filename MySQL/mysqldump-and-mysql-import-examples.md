@@ -1,5 +1,5 @@
 # Export database structure & data from one server and import to another
-Export the database `example_livedb` and use gzip to compress it bacause it is too large  
+Export the database `example_livedb` and use gzip to compress it because it is too large  
 `mysqldump -h localhost -u root --port 3306 -p example_livedb | gzip > /home/example/db-backup/2022-04-29_00_example_livedb.sql.gz`  
 
 Import structure & data -as they are- from `example_livedb` to `another_example_livedb` using the user `another_example_liveusr` and the extracted `2022-04-29_00_example_livedb.sql` from `2022-04-29_00_example_livedb.sql.gz`  
