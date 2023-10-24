@@ -12,7 +12,10 @@ INSTALLATION:
 **Success path**: index.php?route=extension/payment/vivawallet/callback&success  
 **Fail path**: index.php?route=extension/payment/vivawallet/callback&fail  
 
-Use the source code (digit number like 1234) in the payment modules settings. 
+Use the **source code** (digit number like 1234) in the payment modules settings.
+
+**Caution**: If you use **SEO Mega Kit PLUS - Complete SEO Friendly URLs - OVER 50 IN 1!** (https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=12971), you must **Skip Convert URLs** `extension/payment/vivawallet`.
+
 --------------------------------------------------------------------------------------------------
 
 Vivawallet setup:  
