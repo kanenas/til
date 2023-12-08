@@ -13,7 +13,7 @@
         <category><![CDATA[#product_category_list# - #delimiter##category_name##product_category_list#]]></category>
         <price_with_vat>#price_with_tax#</price_with_vat>
         <vat>24</vat>
-        <manufacturer><![CDATA[#manufacturer#]]></manufacturer>
+        <manufacturer><![CDATA[#manufacturer_name#]]></manufacturer>
         <mpn><![CDATA[#mpn#]]></mpn>
         <ean>#ean#</ean>
         <availability><![CDATA[#availability#]]></availability>
