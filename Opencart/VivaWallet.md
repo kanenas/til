@@ -35,3 +35,5 @@ Failure URL - as described in the plugin instructions
 Advanced Configuration - usually no need to make any changes here  
 
 Wait until Vivawallet has activated your newly created Payment Source before activating the plugin in your e-commerce platform.  
+
+Display `Cancel` button: https://developer.vivawallet.com/getting-started/create-a-payment-source/payment-source-for-online-payments/#cancel-button  
