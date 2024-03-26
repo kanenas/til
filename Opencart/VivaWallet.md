@@ -37,3 +37,4 @@ Advanced Configuration - usually no need to make any changes here
 Wait until Vivawallet has activated your newly created Payment Source before activating the plugin in your e-commerce platform.  
 
 Display `Cancel` button: https://developer.vivawallet.com/getting-started/create-a-payment-source/payment-source-for-online-payments/#cancel-button  
+![payment-source-advanced-configuration-with-cancel](https://github.com/kanenas/til/assets/327786/3a49bde3-c04a-4dc4-b746-2ab577ade853)
