@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<store encoding="utf8" name="3GUYS" url="https://www.3guys.gr/">
+   <created_at>#datetime#</created_at>
+   <products>
+      #product_list##product_color_list#<product id="#product_id##if##option_value_id#!=#if_condition#-#option_value_id##if#">
+        <UniqueID>#product_id##if##option_value_id#!=#if_condition##option_value_id##if#</UniqueID>
+        <name><![CDATA[#product_name# - #color#]]></name>
+        <description><![CDATA[#product_description#]]></description>
+        <link><![CDATA[#product_link#]]></link>
+        <image><![CDATA[#main_image#]]></image>
+        #product_images_list#<additionalimage><![CDATA[#additional_image_link#]]></additionalimage>
+        #product_images_list#
+        <category><![CDATA[#product_category_list# - #delimiter##category_name##product_category_list#]]></category>
+        <price_with_vat>#price_with_tax#</price_with_vat>
+        <vat>24</vat>
+        <manufacturer><![CDATA[#manufacturer_name#]]></manufacturer>
+        <mpn><![CDATA[#mpn#]]></mpn>
+        <ean>#ean#</ean>
+        <availability><![CDATA[#availability#]]></availability>
+        <color><![CDATA[#color#]]></color>
+        <size><![CDATA[#size#]]></size>
+        <weight><![CDATA[#weight# #weight_unit#]]></weight>
+        <quantity>#option_quantity#</quantity>
+        <sex>men</sex>
+        <variations>
+          #product_size_list#<variation>
+            <variationid>#id#</variationid>
+            <link><![CDATA[#product_link#]]></link>
+            <availability><![CDATA[#availability#]]></availability>
+            <manufacturersku><![CDATA[#manufacturer_id#]]></manufacturersku>
+            <ean>#gtin#</ean>
+            <price_with_vat>#price_with_tax#</price_with_vat>
+            <size><![CDATA[#size#]]></size>
+            <quantity>#variant_quantity#</quantity>
+          </variation>#product_size_list#
+        </variations>
+      </product>
+#product_color_list##product_list#
+   </products>
+</store>
