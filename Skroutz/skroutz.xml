@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<store encoding="utf8" name="3GUYS" url="https://www.3guys.gr/">
+<store encoding="utf8" name="EXAMPLE COMPANY" url="https://www.example.com/">
    <created_at>#datetime#</created_at>
    <products>
       #product_list##product_color_list#<product id="#product_id##if##option_value_id#!=#if_condition#-#option_value_id##if#">
