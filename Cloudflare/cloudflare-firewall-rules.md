@@ -1,6 +1,7 @@
 # How to Use Cloudflare Firewall Rules to Protect Your Web Application
 How to protect against a wide range of malicious requests, bad bots, automated attacks, spam, and many other types of threats and nonsense?  
 - Enable **Bot Fight Mode**  
+- **IP Access Rules**: Security > WAF > Tools > IP Access Rules
 - **Firewall Rules**: https://blog.runcloud.io/cloudflare-firewall-rules/
 
 WordPress Firewall Rule (GR > Greece)  
