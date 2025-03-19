@@ -145,4 +145,4 @@ The `install.xml` file is the core of your OCMOD extension. It defines the modif
 
 ---
 
-By following this guide, you can create and distribute an OpenCart v3.x OCMOD extension. Let me know if you need further assistance!
+By following this guide, you can create and distribute an OpenCart v3.x OCMOD extension.
