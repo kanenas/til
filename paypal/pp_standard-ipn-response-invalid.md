@@ -6,13 +6,14 @@ From your `paypal.log` file check the parameter **`charset`** of the **`IPN REQU
 `PP_STANDARD :: IPN RESPONSE: INVALID`
 
 **SOLUTION**  
-1. Login to your **PayPal** account
-2. Click on **Profile and Settings** (gear button) in the upper right hand corner next to **Log Out**.
-3. Go to **My Selling Tools**
-4. At the bottom of the screen click on **PayPal button language encoding**
-5. Press **More Options**
-6. Change both drop-downs to **UTF-8**. The "_Do you want to use the same encoding for data sent from PayPal to you (e.g., IPN, downloadable logs, emails)?"_ radio button should be **YES**
-7. Save
+1. Login into your **PayPal** account.
+2. Click on your name (clicking the little person icon in the upper right hand corner).
+3. Select **Account Settings**.
+4. Select **Website payments** from the left vertical menu.
+5. Then click the **Update** link next to **PayPal button language encoding** (Set the language your website uses.).
+6. In **Language Encoding** click on **More Options**.
+7. After **More Encoding Options** select `UTF-8` from the drop down menu and **Yes**.
+8. Click the **Save** button.
 
 Now check again your `paypal.log` file:
 
