@@ -14,7 +14,10 @@ This cron job runs **every day** at **04:10 am**.
 https://github.com/litespeedtech/lscache-opencart
 ### Cli Command for Rebuild All Cache
 Run the following command at the website host:  
-`curl -N "http://yoursite/index.php?route=extension/module/lscache/recache&from=cli"`
+`curl -N "https://www.example.com/index.php?route=extension/module/lscache/recache&from=cli"`
 ### Cli Command for Purge All Cache
 Run the following command at the website host:  
-`curl -N "http://yoursite/index.php?route=extension/module/lscache/purgeAll&from=cli"`
+`curl -N "https://www.example.com/index.php?route=extension/module/lscache/purgeAll&from=cli"`
+
+# Mega Filter PRO/PLUS for OpenCart (every 6 hours)
+`0	*/6	*	*	*	curl -s -X POST "https://www.example.com/index.php?route=extension/module/update_mfp_cache" -H "Content-Type: application/json" -d '{"key":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}' > /dev/null 2>&1`
