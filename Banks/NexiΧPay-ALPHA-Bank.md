@@ -36,3 +36,8 @@ in the test area, it is possible to use specific cards to simulate positive or n
 | Visa   | 4509 0345 4361 5006 | 10/2028 | 298 | OK |
 | Mastercard | 5100 9908 1789 6004 | 04/2027 | 301 | OK |
 | Visa | 43499 4019999 7007 | 12/2028 | 829 | KO |
+
+# XPay Greece API reference
+The XPay APIs provide a secure way to add online payments to your website or application by sending JSON over HTTPS.  
+This is the complete API reference for the XPay APIs.  
+https://developer.nexigroup.com/xpaygreece/en-EU/api/
