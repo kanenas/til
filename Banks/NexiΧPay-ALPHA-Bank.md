@@ -41,3 +41,18 @@ in the test area, it is possible to use specific cards to simulate positive or n
 The XPay APIs provide a secure way to add online payments to your website or application by sending JSON over HTTPS.  
 This is the complete API reference for the XPay APIs.  
 https://developer.nexigroup.com/xpaygreece/en-EU/api/
+
+# Οδηγίες για τη διεξαγωγή δοκιμών με το IRIS:
+- Εκκινήστε μια συναλλαγή χρησιμοποιώντας το endpoint `orders/hpp` και το ακόλουθο **κλειδί API**: 5a3bf3c3-fa05-4a6b-beac-2e09df4163ee.
+- Μόλις ανοίξει ο σύνδεσμος πληρωμής, επιλέξτε τη μέθοδο πληρωμής IRIS και κάντε κλικ στο κουμπί **«ΔΗΜΙΟΥΡΓΙΑ ΚΩΔΙΚΟΥ QR»** για να εμφανιστεί ο κωδικός QR.
+- Χρησιμοποιώντας ένα σαρωτή κωδικών QR (για παράδειγμα: https://qrscanner.net/), διαβάστε τη διεύθυνση που σχετίζεται με τον κωδικό QR και ανακτήστε τον αναγνωριστικό που εμφανίζεται μετά το `IRISCOM`.
+**Παράδειγμα**: `IRISCOM52bb5e73-2ebd-4299-9ccf-e9714b9873fc` (αυτή είναι η συμβολοσειρά που περιέχεται στον κωδικό QR).
+- Με τον αναγνωριστικό που ανακτήσατε, αποκτήστε πρόσβαση στον simulator: `https://test-iris.dias.com.gr/iris-ecommerce-demo/webBanking.html?authorizationRequestID=` 
+(Πρέπει να προσθέσετε τον αναγνωριστικό που ανακτήσατε στο προηγούμενο βήμα μετά το σύμβολο = π.χ από το `IRISCOM52bb5e73-2ebd-4299-9ccf-e9714b9873fc` μόνο το `52bb5e73-2ebd-4299-9ccf-e9714b9873fc`).
+- Τώρα θα αποκτήσετε πρόσβαση στον προσομοιωτή συναλλαγών.
+- Για να ολοκληρώσετε την προσομοιωμένη συναλλαγή:
+1. Επιλέξτε **SCT** στο πρώτο dropdown menu ,
+2. Επιλέξτε έναν από τους παρεχόμενους IBAN στο δεύτερο dropdown menu,
+3. Κάντε κλικ στο κουμπί **«Επιβεβαίωση της συναλλαγής»**.
+- Μετά την επιβεβαίωση, μπορείτε να επιστρέψετε στo checkout page της NEXI, όπου η πληρωμή θα ολοκληρωθεί αυτόματα.
+  
