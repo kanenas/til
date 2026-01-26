@@ -10,6 +10,10 @@ This cron job runs **every Monday** at **05:00 am**.
 This cron job runs **every day** at **04:10 am**.  
 `10	04	*	*	*	wget -O /dev/null 'https://www.example.com/admin/model/extension/module/ie_cron_jobs.php?action=cron_start&profile_id=1' >/dev/null 2>&1`
 
+# Use `wget` to create XML feed with Opencart's extension "Ultimate Marketing Manager" 
+This cron job runs **every hour** at **19 min**.  
+`19	*	*	*	*	wget -O /home/USERNAME/public_html/myXMLfeed.xml 'https://www.example.com/index.php?route=extension/feed/custom&template=myXMLfeed.xml'`
+
 # LiteSpeedCache for OpenCart
 https://github.com/litespeedtech/lscache-opencart
 ### Cli Command for Rebuild All Cache
