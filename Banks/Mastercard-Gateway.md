@@ -1,2 +1,6 @@
 # OpenCart – Mastercard Gateway
 https://mpgs.fingent.wiki/enterprise/opencart-mastercard-gateway/overview-and-feature-support/
+# Integration Guide
+https://test-gateway.mastercard.com/api/documentation/integrationGuidelines/index.html?locale=en_US
+#### Gateway API Reference Documentation
+https://test-gateway.mastercard.com/api/documentation/apiDocumentation/rest-json/version/latest/apiReference.html?locale=en_US
