@@ -16,6 +16,9 @@ Test case 13 **APPROVED TRANSACTION (AMERICAN EXPRESS)** ΟΧΙ
 Test case 14 **APPROVED TRANSACTION (GBP)** ΟΧΙ  
 Test case 15 **APPROVED TRANSACTION (USD)** ΟΧΙ  
 
+**Testing**: Now you're ready to test your integration. We provide a set of test cards that you can use to simulate different scenarios.  
+https://docs.epay.eu/get-started/set-up-epay/testing#test-cards
+
 **Τύπος**: VISA  
 **Αριθμός κάρτας για αγορά**: 4908455555555557  
 **Αριθμός κάρτας για προέγκριση**: 4020680000000098  
